@@ -21,9 +21,7 @@ def find_two_sum(numbers, target_sum):
                 if(len(dict[i]) > 1):
                     return(dict[i][0], dict[res][1])
             else:    
-                return(dict[i][0], dict[res][0])
-  
-    
+                return(dict[i][0], dict[res][0])   
     return None   
 
 #print(find_two_sum([7, 5], 14))
